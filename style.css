@@ -33,6 +33,7 @@ header{
     text-align: center;
     padding-top: 20px;
     background-image: linear-gradient(to top, white, darkgray);
+    
 }
 header > h1{
     padding-top: 20px;
@@ -65,12 +66,15 @@ h2{
     color: var(--color-1);
     padding-top: 20px;
     padding-bottom: 20px;
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.377);
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.377);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 img.principal{
     display: block;
     margin: auto;
+    padding: 5px 5px;
+    margin: 8px;
+    
 }
 img{
     padding: 1px 25px;
@@ -78,7 +82,7 @@ img{
 picture{
     display: flex;
     justify-content: center;
-    width: 100%;
+    
 }
 p{
     text-align: center;
@@ -104,6 +108,7 @@ p >a{
 p >a:hover{
     text-decoration: none;
     font-size: 120%;
+    color: #610600;
 }
 h1{
     text-align: center;
@@ -112,4 +117,13 @@ ul{
    list-style-position: inside;
    columns: 2;
 }
-
+picture.inicio{
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+h1.colecao{
+    padding: 5px 5px;
+    margin: 35px 5px;
+    color: #890907;
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.377);
+}
