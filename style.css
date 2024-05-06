@@ -51,7 +51,6 @@ nav > a:hover{
     border-radius: 8px;
     transition-duration: 0.5s;
 }
-
 article > h1{
     color: #610600;
     text-align: center;
@@ -60,6 +59,12 @@ article > h1{
     padding-top: 10px;
     padding-bottom: 15px;
     font-size: 30px;
+}
+
+article.imagem{
+    background-image: url(imagens/img1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 h2{
     text-align: center;
