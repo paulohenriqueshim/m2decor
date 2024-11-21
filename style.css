@@ -61,11 +61,7 @@ article > h1{
     font-size: 30px;
 }
 
-article.imagem{
-    background-image: url(imagens/img1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 h2{
     text-align: center;
     color: var(--color-1);
@@ -131,4 +127,11 @@ h1.colecao{
     margin: 35px 5px;
     color: #890907;
     text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.377);
+}
+h2 >a{
+    color: #890907;
+}
+h2 >a:hover{
+    text-decoration: none;
+    font-size: 105%;
 }
